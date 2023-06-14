@@ -1,0 +1,1237 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+h1{
+    font-family: Roboto,helvetica neue,helvetica,arial,sans-serif;
+}
+h2{
+     font-family: Roboto,helvetica neue,helvetica,arial,sans-serif;  
+     font-size: 35px;
+}
+h3{
+    font-family: Roboto,helvetica neue,helvetica,arial,sans-serif;  
+    font-size: 40px; 
+    line-height: 44px;
+}
+h4{
+    font-family: Roboto,helvetica neue,helvetica,arial,sans-serif;
+    font-size: 30px;   
+    line-height: 22px;
+}
+h5{
+    font-family: Roboto,helvetica neue,helvetica,arial,sans-serif;   
+}
+h6{
+    font-family: Roboto,helvetica neue,helvetica,arial,sans-serif; 
+    font-size: 20px;  
+}
+p{
+    font-family: Roboto,helvetica neue,helvetica,arial,sans-serif;
+    font-size: 14px;
+    line-height: 22px;
+}
+a{
+    font-family: Roboto,helvetica neue,helvetica,arial,sans-serif;
+    font-size: 14px;
+    text-decoration: none;
+}
+li{
+    list-style-type: none;
+}
+.headbody{
+    position: absolute;
+    width: 100%;
+    text-align: center;
+}
+.banner{
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+.banner div h4{
+    text-shadow:2px 2px 2px rgba(128, 128, 128, 0.238) ;
+    line-height: 30px;
+}
+.section{
+    display: flex;
+    justify-content: center;
+}
+.section-pack{
+    display: flex;
+    justify-content: center;
+}
+.container{
+    max-width: 1200px;
+    padding: 0px 10px;
+}
+.section{
+    margin: 70px 0px;
+}
+.section-pack{
+    padding: 70px 0px;
+}
+.banner{
+    width: 100%;
+    height: 300px;
+}
+.headertop{
+    display: flex;
+    background-color: #0071ef;
+    justify-content: space-around;
+}
+.header-top-div{
+    display: flex;
+    align-items: center;
+}
+.header-top-div a{
+    color: white;
+    font-size: 14px;
+    padding: 10px;
+}
+.header-icon{
+    display: flex;
+    align-items: center;
+}
+.header-icon ul{
+    display: flex;
+    align-items: center;
+}
+.header-icon ul li{
+    list-style-type: none;
+}
+.header{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 8px 0px;
+    width: 100%;
+    z-index: 100;
+    background-color: white;
+}
+.submenu{
+    position: absolute;
+    display: none;
+    margin-top: 13.9px;
+    margin-left: -10px;
+    box-shadow: 2px 2px 2px rgba(128, 128, 128, 0.211);
+}
+.black{
+    color: black;
+}
+.heder-menu{
+    display: flex;
+}
+.heder-menu li:hover .submenu{
+    display: block;
+    color: black;
+}
+.header-icon ul li a{
+    display: flex;
+    color: white;
+    align-items: center;
+}
+.header-icon ul li:nth-child(1){
+    padding: 0px 20px;
+}
+.header-icon ul li:nth-child(2){
+    padding: 0px 20px;
+}
+.header-icon ul li:nth-child(3){
+    padding: 0px 3px;
+}
+.header-icon ul li a img{
+    padding-right: 8px;
+}
+.heder-menu li:hover{
+    background-color: #3292ff;
+}
+.heder-menu li{
+    list-style-type: none;
+    padding: 14px 16px;
+    margin: 6px 0px;
+}
+.submenu li{
+    width: 200px;
+    margin: 0px;
+    padding: 12px 10px;
+    text-align: left;
+    color: black;
+    background-color: white;
+}
+.submenu li:hover{
+    background-color: #3292ff;
+    color: white;
+}
+.logoa{
+    width: 150px;
+    height: 75px; 
+}
+.menu-button{
+    padding: 3.5px 3.5px 0px 3.5px;
+    display: none;
+    align-items: center;
+}
+.mobile-icon img{
+    width: 16px;
+}
+.mobile-icon{
+    width: 22px;
+    height: 22px;
+    background-color: white;
+    border-radius: 50%;
+    border: 2px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.backbutton{
+    width: 100%;
+    max-width: 992px;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+.menu-button img{
+    width: 30px;
+}
+.mobilelike li{
+    padding: 8px;
+    background-color: white;
+    text-align: left;
+    padding-left: 25px;
+}
+.img{
+    width: 30px;
+}
+.Mobile-menu{
+    position: fixed;
+    display: none;
+    width: 100%;
+    height: auto;
+    background-color: #dcebfb;
+    padding-bottom: 20px;
+}
+.link-menu{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.mob-submenu{
+    display: none;
+}
+.overmenu{
+    height:309px;
+    width: 100%;
+    overflow: hidden;
+    overflow-y: scroll;
+}
+.doctorcon{
+    padding:0px ;
+    padding-top: 20px;
+    padding-right: 20px;
+}
+.doctorcon p{
+    display: flex;
+    text-align: left;
+}
+.doctorcon div{
+    display: flex;
+    margin-top: 15px;
+    text-align: left;
+}
+.doctorcon div ul li{
+    display: flex;
+    padding: 4px;
+    align-items: center;
+}
+.doctorcon h6{
+    margin: 8px;
+}
+.slider img{
+    width: 100%;
+    height: auto;
+}
+.slide-hidder{
+    width: 100%;
+    overflow: hidden;
+    /* overflow-x: scroll; */
+}
+::-webkit-scrollbar {
+    display: none;
+}
+.docimg{
+    width: 100%;
+}
+.slider-body{
+    display: flex;
+    width: 300%;
+}
+.onerow{
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+.foot{
+    display: grid;
+    gap: 16px;
+    grid-template-columns: repeat(4,1fr);
+}
+.foot{
+    padding: 70px 0px 30px;
+}
+
+.footbody ul li{
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    padding: 6px  0px 6px 0px;
+}
+.footbody ul li a{
+    color: white;
+    display: flex;
+    align-items: center;
+}
+.footbody ul li a div{
+    color: white;
+    display: flex;
+    text-align: left;
+    line-height: 22px;
+}
+.footbody ul li a:hover{
+    color: #0071ef;
+}
+.footbody h6{
+    color: white;
+    display: flex;
+    justify-content: left;
+    margin-bottom: 13px;
+    border-bottom: 2px solid white;
+}
+.section-foot{
+    margin: 0px 0px 0px 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(35, 35, 35);
+}
+.topper span{
+    justify-content: start;
+    align-items: none;
+}
+.whiter img{
+    background-color: white;
+    border-radius: 50%;
+    margin-right: 10px;
+    width: 15px;
+    border: 2px solid white;
+}
+.whiter-img{
+    background-color: white;
+    border-radius: 50%;
+    margin-right: 5px;
+    width: 15px;
+    border: 2px solid white;
+}
+.whiter-img-arrow{
+    background-color: white;
+    border-radius: 50%;
+    margin-right: 5px;
+    width: 18px;
+    border: 0px solid white;
+}
+.footfoot{
+    background-color: rgb(45, 45, 45);
+    padding: 14px 14px;
+    display: flex;
+    justify-content: space-around;
+}
+.title h4{
+    margin-bottom: 8px;
+}
+.title h6{
+    margin-bottom: 14px;
+}
+.contain{
+    height: 15px;
+    width: 100%;
+    background-color: rgb(45, 45, 45);
+}
+.subfoot{
+    display: flex;
+}
+.subfoot div a{
+    color: white;
+}
+.subfoot div a span{
+    color: #0071ef;
+}
+.docphoto img{
+    width: 70%;
+    height: auto;
+}
+.center{
+    display: flex;
+    align-items: center;
+}
+.rowfacility{
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 10px;
+}
+.rowfacility div{
+    padding: 12px;
+    border: 1px solid #64acff38;
+    background-color: #cceaff;
+    box-shadow: 4px 4px 4px #cceaff;
+}
+.rowfacility div div{
+    padding: 0px 0px;
+}
+.rowfacility div h6{
+    padding: 10px;
+}
+.rowfacility div div{
+    padding: 0px 0px;
+    border: 0px solid #64adff;
+    margin-bottom: 12px;
+    bottom: 0;
+    border-radius: 5px;
+    color: white;
+    align-items: end;
+    background-color: #0071ef;
+}
+.rowfacility div div{
+    padding: 0px 0px;
+}
+.readmore{
+    background-color: #0071ef;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: white;
+    justify-content: center;
+    padding: 8px 0px;
+}
+.rowfacility div div a:hover{
+    color: blue;
+}
+.rowfacility div div a{
+    color: white;
+}
+.rowfacility div p{
+    margin-bottom: 12px;
+    width: 100%;
+    aspect-ratio:1/0.35;
+}
+.facilityimg{
+    width: 100%;
+}
+.title-fac{
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+.bodifix{
+    background-image:linear-gradient(rgba(0, 0, 0, 0.285),rgba(0, 0, 0, 0.263)), url(photo/imgnaner.jpg);
+    width: 100%;
+    height: 500px;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+.reviewbox{
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+    background-image:linear-gradient(rgba(0, 0, 0, 0.285),rgba(0, 0, 0, 0.263)), url(photo/imgrev.jpg);
+    height: 500px;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+}
+.overflow{
+    max-width: 650px;
+    padding: 20px;
+}
+.overflow h2{
+    color: white;
+    text-shadow:1px 1px 1px rgba(0, 0, 0, 0.163);
+    line-height: 40px;
+}
+.scrolltop{
+    background-color: #0071ef;
+    width: 40px;
+    height: 40px;
+    position: fixed;
+    z-index: 100;
+    display: flex;
+    bottom: 20px;
+    right: 20px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+}
+.scrolltop div img{
+    width: 18px;
+    padding-left: 5px;
+}
+.scrolltop div{
+    transform: rotate(-45deg);
+}
+.scrolltop div{
+    transform: rotate(-45deg);
+    display: flex;
+    justify-content: center;
+}
+.scrolltop div{
+    transform: rotate(-45deg);
+}
+.paddingfoot{
+    padding: 0px;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    width: 100%;
+    gap: 8px;
+}
+.footbodyscan ul li a div{
+    color: black;
+}
+.title-grid{
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+    background-color: #0071ef;
+    padding: 30px;
+    color: white;
+}
+.title-grid h4{
+    line-height: 36px;
+}
+.paddremove{
+    padding: 0px;
+    margin-top: 10px;
+}
+.coloring ul li{
+    background-color: #9ecbfe;
+    display: flex;
+    align-items: center;
+    padding: 5px;
+    margin: 8px 0px;
+}
+.coloring ul li:hover{
+    background-color: #0071ef;
+    color: white;
+}
+.coloring ul li a div{
+    color: black;
+}
+.coloring ul li a div:hover{
+    color: white;
+}
+.width{
+    width: 100%;
+}
+.topmargin{
+    margin-top: 15px;
+}
+.heailthpach{
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+    margin: 20px 0px;
+}
+.heailthpach li{
+    display: flex;
+    justify-content: center;
+    padding: 11px 0px;
+    margin: 3px;
+    border-radius: 4px;
+    border: 1px solid rgba(0, 0, 0, 0.312);
+}
+.heailthpach li:hover{
+    background-color: #0071ef;
+    color: black;
+}
+.title h4{
+    line-height: 22px;
+}
+.pack{
+    display: flex;
+}
+.packone{
+    width: 50%;
+}
+.innerpack{
+    display: flex;
+    width: 100%;
+}
+.innerpack ul{
+    width: 50%;
+}
+.innerpack ul li span img{
+    width: 14px;
+}
+.innerpack ul li{
+    display: flex;
+}
+.innerpack ul li span{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 3px;
+    border: 2px solid green;
+    border-radius: 50%;
+    background-color: rgb(93, 252, 93);
+    margin-right: 8px;
+    width: 16px;
+    height: 16px;
+}
+.innerpack ul li{
+    margin-bottom: 8px;
+    margin-right: 8px;
+}
+.leftme{
+    display: flex;
+    justify-content: left;
+    text-align: left;
+}
+.packone img{
+    width: 100%;
+}
+.packpadd{
+    padding:0px 14px;
+}
+.packmar{
+    margin-bottom: 10px;
+    margin-top: 0px;
+    padding-top: 0px;
+}
+.packmar h6 span{
+    color: rgb(0, 192, 0);
+}
+.aboutbanner{
+    background-image: url(photo/abbanner.jpg);
+}
+.healhbanner{
+    background-image: url(photo/hebanner.jpg);
+}
+.gallrybanner{
+    background-image: url(photo/gabanner.jpg);
+}
+.contactbanner{
+    background-image: url(photo/conabber.jpg);
+}
+.Ultasoundbanner{
+    background-image: url(photo/onebanner.jpg);
+}
+.twodbanner{
+    background-image: url(photo/twobanner.jpg);
+}
+.threefourdbanner{
+    background-image: url(photo/fourbanner.jpg);
+}
+.digitaldbanner{
+    background-image: url(photo/threebanner.jpg);
+}
+.ecgbanner{
+    background-image: url(photo/fivebanner.jpg);
+}
+.clinicbanner{
+    background-image: url(photo/sixbanner.jpg);
+}
+.endoscopybanner{
+    background-image: url(photo/sevenbanner.jpg);
+}
+.colonoscopybanner{
+    background-image: url(photo/eightbanner.jpg);
+}
+.obstetricsbanner{
+    background-image: url(photo/wonbanner.jpg);
+}
+.gynaecologybanner{
+    background-image: url(photo/wotwobanner.jpg);
+}
+.fetalbanner{
+    background-image: url(photo/wothreebanner.jpg);
+}
+.ourdoctorbanner{
+    background-image: url(photo/oubanner.jpg);
+}
+.consultantdbanner{
+    background-image: url(photo/ninebanner.jpg);
+}
+.lastSlider{
+    display: none;
+}
+.activeSlide{
+    display: block;
+}
+.vissionmission{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.vission{
+    width: 50%;
+    padding: 10PX;
+}
+.vission div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.vission h6{
+    margin-bottom: 15PX;
+}
+.vission div img{
+    width: 150px;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20PX;
+}
+.mission{
+    width: 50%;
+}
+.mission div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20PX;
+}
+.mission h6{
+    margin-bottom: 15PX;
+}
+.mission div img{
+    width: 150px;
+}
+.maindisplay{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 8px;
+}
+.infocontain div img{
+    width: 75px;
+    margin-bottom: 10px;
+}
+.infocontain h6{
+    margin-bottom: 10px;
+}
+.infocontain{
+    padding: 20px;
+    background-color: #cceaff;
+    border-radius: 5px;
+    border: 1px solid #7ab8ff;
+    box-shadow: 4px 4px 4px #a2cdff;
+}
+.overhide{
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+.tomargintitle{
+    margin-top: 50px;
+    color: white;
+    text-shadow:2px 2px 2px rgba(0, 0, 0, 0.416);
+}
+.tomargintitle h4{
+    line-height: 36px;
+}
+.topreview{
+    display: flex;
+    width: 133.3333%;
+}
+.subreview{
+    width: 33.3333%;
+    padding: 20px;
+}
+.containhidder{
+    max-width: 1200px;
+}
+.subreview div img{
+    width: 30px;
+}
+.imgmarre{
+    margin: 8px;
+}
+.subreview div{
+    display: flex;
+}
+.subreview div ul{
+    display: flex;
+    align-items: center;
+}
+.subreview div ul li{
+    padding: 1px;
+}
+.subreview div ul li img{
+    width: 18px;
+}
+.subreview h6{
+    margin-bottom: 8px;
+    text-align: left;
+}
+.subreview p{
+    text-align: left;
+}
+.texthospital{
+    text-align: left;
+    padding:0px 35px;
+}
+.texthospital h3{
+    line-height: 44px;
+    color: #3292ff;
+    margin-bottom: 10px;
+}
+.texthospital h6{
+    margin-bottom: 10px;
+}
+.texthospital p{
+    margin-bottom: 10px;
+}
+.callbox{
+    display: grid;
+    grid-template-columns: 70% 30%;
+    background-color: #3292ff;
+    color: white;
+    text-shadow: 2px 2px 2px rgba(0, 0, 255, 0.126);
+    border-radius: 10px;
+}
+.callboxfirst{
+    padding: 40px 30px;
+    text-align: left;
+}
+.callboxfirst h4{
+    margin-bottom: 20px;
+    line-height: 36px;
+}
+.callboxsecond{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.callboxsecond a{
+    font-size: 18px;
+    padding: 10px 20px;
+    background-color: rgb(156, 225, 252);
+    color: black;
+    text-shadow: 0px 0px 0px blue;
+    border-radius: 5px;
+}
+.gallerybox{
+    margin-top: 50px;
+    display: grid;
+    gap: 16px;
+    grid-template-columns: repeat(2,1fr);
+}
+.gallerybox div img{
+    width: 100%;
+}
+.gallerybox div{
+    box-shadow: 3px 5px 3px rgba(128, 128, 128, 0.214);
+}
+.maincontent{
+    display: grid;
+    grid-template-columns: 66% 34%;
+}
+.confirst{
+    padding:0px 8px 0px 0px;
+}
+.confirst div div img{
+    width: 100%;
+    height: auto;
+}
+.confirst div{
+    padding:0px 5px;
+}
+.facilityinfo{
+    margin-top: 30px;
+}
+.facilityinfo h6{
+    margin-bottom: 10px;
+}
+.facilityinfo p{
+    text-align: left;
+    margin-bottom: 6px;
+}
+.consecond{
+    text-align: left;
+    padding:0px 3px 0px 0px;
+}
+.innerboxfirst{
+    margin-bottom: 20px;
+    background-color: aliceblue;
+}
+.facititle{
+    padding: 16px 20px;
+    background-color: #64adff;
+    margin-bottom: 2px;
+}
+.facilist{
+    padding: 8px;
+}
+.facilist li{
+    padding-left: 18px;
+    display: flex;
+    background-color: #acd3ff;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-bottom: 2px;
+}
+.faciimg img{
+    width: 18px;
+    margin-right: 8px;
+}
+.font{
+    color: black;
+    display: flex;
+    align-items: center;
+    line-height: 22px;
+}
+.confaci li{
+    margin-bottom: 0px;
+}
+.map{
+    width: 100%;
+    height: 500px;
+    border: 0px;
+}
+.form{
+    text-align: left;
+    padding: 20px;
+}
+.input{
+    margin-top: 10px;
+    width: 100%;
+    height: 30px;
+    margin-bottom: 20px;
+}
+.texarea{
+    margin-top: 10px;
+    height: 70px;
+    margin-bottom: 20px;
+    width: 100%;
+}
+.colorform{
+    background-color: #7ab8ff;
+}
+.colorform div h6{
+    margin-top: 30px;
+}
+.submit{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.submit button{
+    padding: 10px 35px;
+    background-color: rgb(250, 52, 52);
+    color: white;
+    border-radius: 50px;
+}
+.mainscan{
+    width: 100%;
+    height: 100%;
+    display: block;
+    align-items: center;
+    justify-content: center;
+    z-index: 2000;
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.692);
+    overflow: hidden;
+    overflow-y: auto;
+    position: fixed;
+}
+.cancelscan{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    padding: 0px;
+    margin-top: -20px;
+    margin-bottom: 20px;
+}
+.cancelscan img{
+    width: 40px;
+    background-color: white;
+    border-radius: 50%;
+}
+.scanbut{
+    position: fixed;
+    z-index: 150;
+    width: 100%; 
+    bottom: 0%;
+}
+.scanbuttop{
+    margin-top: 32px;
+    text-align: center;
+    background-color: #3292ff;
+    padding: 10px 5px 38px 5px;
+    color: white;
+    display: none;
+}
+.scanbuttop p{
+    margin-bottom: 6px;
+}
+.scanbutton{
+    float: right;
+}
+.scanbutsec{
+    position: relative;
+    background-color: #3292ff;
+}
+.scanbutton button{
+    padding: 8px;
+    background-color:#0071ef;
+    border: 0px;
+    color: white;
+    
+}
+.scanbutton{
+    display: flex;
+    justify-content: center;
+}
+.scanbut{
+    display: flex;
+    justify-content: center;
+}
+.cancelscan-1{
+    background-color: #3292ff;
+}
+.cancelscan-1 img{
+    width: 32px;
+    background-color: white;
+    border-radius: 50%;
+    position: absolute;
+    right: 0;
+}
+.bookaapp{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    background-color: #3292ff;
+}
+.bookaapp button{
+    position: absolute;
+    padding: 5px;
+}
+.center{
+    display: flex;
+    justify-content: center;
+}
+.whats{
+    bottom: 150px;
+    width: 25px;
+    background-color: #0070ef00;
+}
+.cancelscan-1 a img{
+    border-radius: 0%;
+    background-color: #0070ef00;
+}
+.call{
+    bottom: 110px;
+    width: 30px;
+}
+.bannerpack{
+    background-image:linear-gradient(rgba(255, 255, 255, 0.803),rgba(255, 255, 255, 0.797)), url(photo/149-1491561_sky-blue-hd-background-image-for-banner-light\ \(1\).jpg);
+    background-position: center;
+    background-size: cover;
+}
+.lazy img{
+    padding: 0px;
+}
+.onebannermain{
+    display: block;
+}
+.twobannermain{
+    display: none;
+}
+@media (max-width:1235px){
+    .rowfacility div p{
+    aspect-ratio:auto;
+    }
+}
+@media (max-width:992px){
+    .heder-menu{
+        display: none;
+    }
+    .heailthpach{
+        grid-template-columns: repeat(3,1fr);
+    }
+    .menu-button{
+        display: block;
+    }
+    .header-icon ul li:nth-child(1){
+        padding: 0px 10px;
+    }
+    .header-icon ul li:nth-child(2){
+        padding: 0px 10px;
+    }
+    .foot{
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .container{
+        padding: 0px 20px;
+    }
+    .onerow{
+        display:block;
+    }
+    .onerow div{
+        width: 100%;
+    }
+    .docphoto img{
+        width: 100%;
+        height: auto;
+    }
+    .doctorcon{
+        padding-right: 0px;
+    }
+    .rowfacility{
+        grid-template-columns: repeat(2,1fr);
+    }
+    .pack{
+        display: block;
+    }
+    .packone{
+        width: 100%;
+    }
+    .packpadd{
+        margin-top: 20px;
+    }
+    .packpadd {
+        padding: 0px 0px;
+    }
+    .vissionmission{
+        display: block;
+    }
+    .vission,.mission{
+        width: 100%;
+        padding: 0PX;
+    }
+    .mission{
+        margin-top: 20px;
+    }
+    .maindisplay{
+        grid-template-columns: repeat(1,1fr);
+    }
+    .topreview{
+        width: 200%;
+        top: 100px;
+    }
+    .subreview{
+        width: 50%;
+    }
+    .texthospital{
+        padding:0px 0px;
+    }
+    .callboxsecond a{
+        font-size: 16px;
+        padding: 10px 20px;
+    }
+    .callboxfirst h4{
+        font-size: 28px;
+        line-height: 32px;
+    }
+    .callboxfirst h6{
+        font-size: 18px;
+        line-height: 22px;
+    }
+    .gallerybox{
+        grid-template-columns: repeat(1,1fr);
+    }
+    .maincontent{
+        display: block;
+    }
+    .confirst div{
+        padding:0px 0px;
+    }
+    .facilist{
+        padding: 8px 0px;
+    }
+    .consecond{
+        padding: 0px;
+    }
+    .confirst div{
+        padding:0px 0px;
+    }
+    .confirst{
+        padding:0px 0px 0px 0px;
+    }
+    .scanbut{
+        display: block;
+    }
+    .scanbutton{
+        display: flex;
+        justify-content: center;
+    }
+    .scanbut{
+        display: block;
+        justify-content: right;
+    }
+    .colorform{
+        padding-top: 10px;
+    }
+}
+@media (max-width:768px){
+    .headertop{
+        display: none;
+    }
+    .heailthpach{
+        grid-template-columns: repeat(2,1fr);
+    }
+    .foot{
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .footfoot{
+        display: block;
+    }
+    .subfoot{
+        align-items: center;
+        justify-content: center;
+        margin-bottom: 5px;
+    }
+    .rowfacility{
+        grid-template-columns: repeat(1,1fr);
+    }
+    .innerpack{
+        display: block;
+    }
+    .innerpack ul{
+        width: 100%;
+    }
+    .topreview{
+        width: 400%;
+    }
+    .subreview{
+        width: 100%;
+        padding: 10px;
+    }
+    .callbox{
+        display: block;
+        padding-bottom: 30px;
+    }
+    .callboxfirst{
+        text-align: center;
+    }
+    .onebannermain{
+        display: none;
+    }
+    .twobannermain{
+        display: block;
+    }
+}
+@media (max-width:500px){
+    .heailthpach{
+        grid-template-columns: repeat(1,1fr);
+    }
+    .heailthpach li{
+        text-align: left;
+    }
+}
